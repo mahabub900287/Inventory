@@ -1,0 +1,65 @@
+button.dt-button, div.dt-button, a.dt-button {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 0.333em;
+    padding: 0.5em 1em;
+    border: 1px solid #6a4646;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.88em;
+    color: #ecf0f4;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #e9e9e9;
+    background-image: -webkit-linear-gradient(top, #fff 0%, #e9e9e9 100%);
+    background-image: -moz-linear-gradient(top, #fff 0%, #e9e9e9 100%);
+    background-image: -ms-linear-gradient(top, #fff 0%, #e9e9e9 100%);
+    background-image: -o-linear-gradient(top, #fff 0%, #e9e9e9 100%);
+    background-image: linear-gradient(top, #fff 0%, #e9e9e9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='white', EndColorStr='#e9e9e9');
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    outline: none;
+}
+button.dt-button, div.dt-button, a.buttons-create{
+    box-shadow: inset 1px 1px 3px #743131 !important;
+    background-color: #1c4a36 !important;
+    background-image: none !important;
+}
+button.dt-button, div.dt-button, a.buttons-excel{
+    box-shadow: inset 1px 1px 3px #607d8b !important;
+    background-color: #607d8b !important;
+    background-image: none !important;
+}
+button.dt-button, div.dt-button, a.buttons-csv{
+    box-shadow: inset 1px 1px 2px #924f4f !important;
+    background-color: #924f4f !important;
+    background-image: none !important;
+}
+button.dt-button, div.dt-button, a.buttons-print{
+    box-shadow: inset 1px 1px 3px #759f22 !important;
+    background-color: #759f22 !important;
+    background-image: none !important;
+}
+button.dt-button, div.dt-button, a.buttons-reset{
+    box-shadow: inset 1px 1px 2px #065f6f !important;
+    background-color: #065f6f !important;
+    background-image: none !important;
+}
+button.dt-button, div.dt-button, a.buttons-reload{
+    box-shadow: inset 1px 1px 2px #0d6efd !important;
+    background-color: #0d6efd !important;
+    background-image: none !important;
+}
+.dataTable .dropdown-menu {
+    transform: translate3d(-40px, 0px, 0px) !important
+}
+
+.ic_table tbody tr td {
+    border-bottom: 1px solid #EAECF0;
+}
+

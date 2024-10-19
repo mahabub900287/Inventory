@@ -1,0 +1,24 @@
+/* delivery scss */
+.ic-status-wrapper {
+    &.ic-delivery-header {
+        @include d-flex();
+        @include justify-content(space-between);
+        
+
+        .ic-btn-box {
+            @include d-flex();
+            gap: 10px;
+            padding-right: 50px;
+            .ic-btn {
+                color: $body;
+
+                &:hover {
+                    background-color: $grey-shade2;
+                }
+            }
+        }
+
+
+
+    }
+}
